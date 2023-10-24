@@ -67,5 +67,5 @@ export default function ToggleLogo({ width }) {
 }
 
 ToggleLogo.propTypes = {
-  width: PropTypes.number,
+  width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };

@@ -42,6 +42,10 @@ body {
   &__right {
     p {
       font-size: 14px;
+      font-weight: 500;
+      &:hover {
+        color: #ff9f21;
+      }
     }
   }
 }

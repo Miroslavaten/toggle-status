@@ -5,29 +5,23 @@ import MinusCircle from "../assets/icons/MinusCircle";
 import Tick from "../assets/icons/Tick";
 
 function AllStatuses() {
+  const statusItems = [
+    { icon: <Tick />, text: "No known issues" },
+    { icon: <Clock />, text: "Maintenance" },
+    { icon: <ExclamationCircle />, text: "Degraded" },
+    { icon: <ExclamationTriangle />, text: "Partial Outage" },
+    { icon: <MinusCircle />, text: "Outage" },
+  ];
+  console.log(statusItems);
   return (
     <div className="all-statuses">
       <ul className="status-list">
-        <li className="status-list__item">
-          <Tick />
-          <p>No known issues</p>
-        </li>
-        <li className="status-list__item">
-          <Clock />
-          <p>Maintenance</p>
-        </li>
-        <li className="status-list__item">
-          <ExclamationCircle />
-          <p>Degraded</p>
-        </li>
-        <li className="status-list__item">
-          <ExclamationTriangle />
-          <p>Partial Outage</p>
-        </li>
-        <li className="status-list__item">
-          <MinusCircle />
-          <p>Outage</p>
-        </li>
+        {statusItems.map((item, index) => (
+          <li key={index} className="status-list__item">
+            {item.icon}
+            <p>{item.text}</p>
+          </li>
+        ))}
       </ul>
     </div>
   );
