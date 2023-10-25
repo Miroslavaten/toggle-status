@@ -27,8 +27,8 @@ function App() {
       <AllStatuses />
       <StatusTable data={data} />
       <p className="status-table__note">
-        Some issues affecting a small percentage of stores may not be reflected
-        here.
+        Some issues affecting a small percentage of services may not be
+        reflected
       </p>
       <EventsList recentEvents={recentEvents} />
     </div>
