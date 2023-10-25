@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { eventStatuses } from "../helpers/constants";
 
 function EventsList({ recentEvents }) {
   return (
@@ -13,7 +14,7 @@ function EventsList({ recentEvents }) {
               <div className="list-item__right">
                 <span
                   className={`list-item__status-${
-                    item.status == "resolved" ? "green" : "red"
+                    item.status === eventStatuses.resolved ? "green" : "red"
                   }`}
                 >
                   {item.status}

@@ -16,7 +16,7 @@ function App() {
     {
       title: "Shop Pay Installments is not processing payments",
       date: "19 окт. 2023 г. at 00:40",
-      status: eventStatuses.onGoing,
+      status: eventStatuses.ongoing,
     },
   ];
 

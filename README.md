@@ -87,4 +87,4 @@ npm run dev
 **Available Event statuses:**
 
 - eventStatuses.resolved
-- eventStatuses.onGoing
+- eventStatuses.ongoing
