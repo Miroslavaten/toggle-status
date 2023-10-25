@@ -38,3 +38,8 @@ export const statuses = {
 };
 
 export const statusItems = Object.values(statuses);
+
+export const eventStatuses = {
+  resolved: "Resolved",
+  onGoing: "On going",
+};

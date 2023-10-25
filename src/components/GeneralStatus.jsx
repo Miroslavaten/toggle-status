@@ -10,7 +10,7 @@ function GeneralStatus({ data }) {
   const getTotalErrors = (data) => {
     const errorCount = data.filter((item) => item.status.isError).length;
     return errorCount > 0
-      ? `${errorCount} Errors found`
+      ? `Partial service outage`
       : "All systems are operational";
   };
   return (
