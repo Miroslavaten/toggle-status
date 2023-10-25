@@ -1,8 +1,27 @@
-# React + Vite
+# Toggle Status Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt image](./preview.png)
 
-Currently, two official plugins are available:
+## Basic Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Keep traking your events with offered statuses
+
+**Features**
+
+- Error count
+- 4 types of errors
+
+## Build/Run
+
+**Requirements**
+
+- Node.js versions(18-21)
+- Npm
+
+```bash
+# First, Install the needed packages
+npm install
+
+# Then start the React app
+npm run dev
+```

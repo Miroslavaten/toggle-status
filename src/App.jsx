@@ -9,7 +9,7 @@ function App() {
   const data = [
     { title: "WEB Application", status: statuses.outage },
     { title: "API", status: statuses.maintenance },
-    { title: "Third party services", status: statuses.degraded },
+    { title: "Third party services", status: statuses.noIssues },
   ];
   return (
     <div className="container">
