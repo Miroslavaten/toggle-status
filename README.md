@@ -28,8 +28,8 @@ npm run dev
 
 ## Change status
 
-1. Open App.js file
-2. Change the status in 'data' array
+1. Open `App.js` file
+2. Change the status in `data` array
 
 ```
 [
@@ -52,8 +52,8 @@ npm run dev
 
 ## Add Recent event
 
-1. Open App.js file
-2. Add an object in 'recentEvents' array with following fields:
+1. Open `App.js` file
+2. Add an object in `recentEvents` array with following fields:
 
 ```
 [
@@ -69,8 +69,8 @@ npm run dev
 
 ## Change Recent event status
 
-1. Open App.js file
-2. Change the status in 'recentEvents' array
+1. Open `App.js` file
+2. Change the status in `recentEvents` array
 
 ```
 [
